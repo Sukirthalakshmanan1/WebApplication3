@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="WebApplication3.Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Login page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <center> <h2>Welcome</h2>
+       <p>
+           <asp:Image ID="Image2" runat="server" BorderStyle="None" Height="86px" ImageUrl="~/Image/Bkk.jpg" style="margin-left: 0px" Width="113px" />
+           <asp:Image ID="Image1" runat="server" Height="73px" ImageUrl="~/Image/Bkk.jpg" Width="89px" />
+       </p></center>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Label ID="Label4" runat="server" Text="Page"></asp:Label>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
